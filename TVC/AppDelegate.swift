@@ -16,6 +16,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func applicationDidFinishLaunching(aNotification: NSNotification) {
         // Insert code here to initialize your application
+        window.appearance = NSAppearance(named: NSAppearanceNameVibrantDark)
+        window.invalidateShadow()
     }
 
     func applicationWillTerminate(aNotification: NSNotification) {

@@ -10,6 +10,7 @@
 		32BC7C7E1D196B9D00991978 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BC7C7D1D196B9D00991978 /* AppDelegate.swift */; };
 		32BC7C801D196B9D00991978 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32BC7C7F1D196B9D00991978 /* Assets.xcassets */; };
 		32BC7C831D196B9D00991978 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32BC7C811D196B9D00991978 /* MainMenu.xib */; };
+		32BC7C8C1D196D9900991978 /* FTAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BC7C8B1D196D9900991978 /* FTAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
 		32BC7C7F1D196B9D00991978 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32BC7C821D196B9D00991978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		32BC7C841D196B9D00991978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32BC7C8B1D196D9900991978 /* FTAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FTAnimation.swift; path = Source/FTAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,12 +52,21 @@
 		32BC7C7C1D196B9D00991978 /* TVC */ = {
 			isa = PBXGroup;
 			children = (
+				32BC7C8A1D196D6A00991978 /* Source */,
 				32BC7C7D1D196B9D00991978 /* AppDelegate.swift */,
 				32BC7C7F1D196B9D00991978 /* Assets.xcassets */,
 				32BC7C811D196B9D00991978 /* MainMenu.xib */,
 				32BC7C841D196B9D00991978 /* Info.plist */,
 			);
 			path = TVC;
+			sourceTree = "<group>";
+		};
+		32BC7C8A1D196D6A00991978 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				32BC7C8B1D196D9900991978 /* FTAnimation.swift */,
+			);
+			name = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32BC7C8C1D196D9900991978 /* FTAnimation.swift in Sources */,
 				32BC7C7E1D196B9D00991978 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +283,7 @@
 				32BC7C891D196B9D00991978 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
